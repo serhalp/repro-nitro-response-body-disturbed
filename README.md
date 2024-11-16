@@ -3,7 +3,7 @@
 Repro steps:
 
 1. `nitro dev`
-2. `curl -X POST --data "hello world" http://localhost:3000
+2. `curl -X POST --data "hello world" http://localhost:3000`
 
 Expected: response 200 with body "success", server logs "received request body: hello world"
 
